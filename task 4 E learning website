@@ -1,0 +1,121 @@
+//html code
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Learning Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>E-Learning Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Courses</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="signup">
+			<h2>Sign Up</h2>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username"><br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<input type="submit" value="Sign Up">
+			</form>
+		</section>
+		<section id="upload">
+			<h2>Upload Documents</h2>
+			<form>
+				<label for="file">Choose File:</label>
+				<input type="file" id="file" name="file"><br><br>
+				<input type="submit" value="Upload">
+			</form>
+		</section>
+		<section id="assessments">
+			<h2>Online Assessments</h2>
+			<p>Take our online assessments to test your knowledge.</p>
+			<a href="#">Start Assessment</a>
+		</section>
+		<section id="future">
+			<h2>Future of E-Learning</h2>
+			<p>Learn about the future of e-learning and how it can benefit you.</p>
+			<a href="#">Learn More</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 E-Learning Website. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
+
+//css code
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #ddd;
+	color: #333;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+form label {
+	display: inline-block;
+	width: 100px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+textarea
